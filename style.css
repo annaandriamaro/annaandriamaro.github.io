@@ -1,0 +1,23 @@
+body{
+	background: lightgrey;
+	font-family: arial;
+	text-align: center;
+}
+
+h1 {
+	color: #005C3B;
+	font-family:'Lobster', cursive;
+}
+h2 {
+	color: green;
+	font-family:'Lobster', cursive;
+	
+}
+ol{
+	text-align: left;
+}
+
+img {
+	width: 300px; 
+
+}
