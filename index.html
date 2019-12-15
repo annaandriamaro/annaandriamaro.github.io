@@ -1,33 +1,151 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Le titre de l'onglet</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">>
+	<title>Danse avec nous</title>
+	<script src="https://kit.fontawesome.com/f2b885b691.js" crossorigin="anonymous"></script>
+	<!-- Changer fontawesome avec nouvelle adresse car la ca ne va pas fonctionner  -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- notre feuille de style doit toujours etre en dernier -->
+
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
 </head>
 <body>
-	 <h1>Mojito</h1>
-	 <h2>L'alcool c'est mal !!!</h2>
-	 <p><strong>Le mojito</strong>, <em>prononcé [moˈxito]</em> en espagnol, ou mojito, morito, ou mohito en français, est un cocktail traditionnel de la cuisine cubaine et de la culture de Cuba, à base de rhum, de soda, de citron vert, et de feuilles de menthe fraîche. Inspiré du mint julep, et variante des Ti-punch des Antilles, Daïquiri, et Cuba libre, il est né à Cuba dans les Caraïbes dans les années 1910 (dont il est à ce jour un emblème exotique international).</p>
+
+<!-- BARRE DE NAVIGATION -->
+	<div class="mynavbar">
+		<img class="mylogo" src="images/logo1.png" alt="logo dance">
+		<div class="links">
+			<a href="" class="link">Ecole</a>
+			<a href="" class="link">Formations</a>
+			<a href="" class="link">Contact</a>
+		</div>
+	</div>
+
+	<div class="mybanner">
+		<div>
+			<h1>DANCE WORLD</h1>
+			<img class="avatar" src="images/danseuse.jpg" alt="robert barman">
+		</div>
+	</div>
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+	  Launch demo modal
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        bonjour ! 
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-danger">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+<!-- DRAPEAU -->
+	<div class="flag">
+		<div class="flag-green"></div>
+		<div class="flag-white"> </div>
+		<div class="flag-red"></div>
+	</div>
 
 
+	<h2 class="viens"> Viens faire des cours de hip hop!</h2>
 
-	<a href="https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx"target="_blank_">Mon 1er lien</a>
 
-<br>
-	<img src="images/mojito.jpg" alt="mojito">
+	
+<p>
+	À deux pas de la place de la Victoire à Bordeaux et juste en face de l'arrêt de tram, <strong>The Flow</strong> est un <em>lieu d’exception</em>. Une école de danse à Bordeaux dans laquelle on se sent bien et où sort des cours avec le sourire, quel que soit notre niveau. Les deux mots qui résument le mieux <strong>The Flow</strong>? Qualité et Ondes positives ! Découvrez nos cours de danse pour enfants, ados et adultes de tous niveaux.
 
-	<p>Ingrédients</p>
+</p>
 
-	<ol>
-		<li>Rhum</li>
-		<li>Menthe</li>
-		<li>Sucre</li>
-		<li>Limonade</li>
-		<li>Glace</li>
+	
+
+<!-- LIEN POUR ALLEZ SUR UN AUTRE SITE -->
+<!-- pour utiliser quelque chose d'une autre feuille de style on remplace seulement le class de a  -->
+	<div>
+		<a class="btn-red" href="https://www.pariscandance.fr/blog/category/clips-video/" target="_blank">Viens voir nos cours</a>
+		<!-- target blank ouvrir une autre page  -->
+	</div>
+	<br>
+
+	<img class="coktail shadow" src="images/salle.jpg" alt="salle">
+
+	<p class="propositions"><strong>Cours proposés</strong></p>
+	<ul>
+		<li>Breaking</li>
+		<li>Locking</li>
+		<li>House</li>
+		<li>Popping</li>
+		<li>Krump</li>
 	</ul>
+
+	<div class="bg-white">
+		<h2><strong>Suggestions</strong></h2>
+		<img class="suggestions shadow" src="images/dance2.jpg" alt="">
+
+
+		<img class="suggestions" src="images/dance1.jpg" alt="">
+
+		<img class="suggestions shadow" src="images/dance3.jpg" alt="">
+	</div>
+
+
+
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/hEsofW-h6zA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+	<div class="contact">
+
+		<div class="typeform-widget" data-url="https://solne881766.typeform.com/to/TWLaEI" style="width: 400px; height: 300px;"></div>
+
+
+		<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+		<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=TWLaEI&utm_source=typeform.com-15151457-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36840.2740847524!2d-0.6032575053052491!3d44.83938075454197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527e8f751ca81%3A0x796386037b397a89!2sBordeaux%2C%20France!5e0!3m2!1sfr!2sbe!4v1576427425072!5m2!1sfr!2sbe" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+       
+
+	</div>
+
+	<div class="footer">
+		<a href="https://www.instagram.com/hiphopde/" target="_blank">
+		<i class="fas fa-address-card iconsize"></i>
+		</a>
+		<i class="fab fa-airbnb iconsize"></i>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- utiliser du java quand il y a une annimation le mettre a la fin de notre feuille body  -->
+
 </body>
 </html>
